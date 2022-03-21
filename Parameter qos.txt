@@ -1,0 +1,24 @@
+
+Pengukuran Qos Terhadap tab browser.
+
+Parameter QOS
+ * Throungput :
+   jumlah bytes : time span = 851594 Bytes : 24.862 s
+			    = 34,252 Bytes/s
+                            = 34 KB/s
+                            = 34,252 x 8
+                            = 274 Kb/s
+
+ * Paket loss : (((Paket dikirim - paket diterima) / paket diterima) x 100)
+                = ( 982 - 0 )/982 x 100
+                = (982/982) x 100
+		=  1 x 100
+                = 100 (tidak ada paket loss)
+
+* Delay : 
+  Total dellay = 1,614183 s
+  Rata-rata dellay = 0,001643771 - 1.643 ms
+
+* Total jitter :
+  Total jitter	= 1,267536 s
+  rata-rata jiter =	0,00129077 = 1.290 ms
